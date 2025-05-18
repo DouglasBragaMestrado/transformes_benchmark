@@ -1,0 +1,36 @@
+{
+    "model_name": "Swin-Base",
+    "model_id": "microsoft/swin-base-patch4-window7-224",
+    "test_metrics": {
+        "accuracy": 0.9200819672131147,
+        "precision": 0.9191591744072523,
+        "recall": 0.9200819672131147,
+        "f1_score": 0.9170982666068612,
+        "roc_auc": 0.9454132676167342
+    },
+    "training_time": 11711.04845571518,
+    "epochs_trained": 31,
+    "dataset_info": {
+        "train_size": 16384,
+        "val_size": 2326,
+        "test_size": 976,
+        "class_names": [
+            "all",
+            "hem"
+        ],
+        "class_distribution": {
+            "train": {
+                "all": 8292,
+                "hem": 8092
+            },
+            "val": {
+                "all": 1744,
+                "hem": 582
+            },
+            "test": {
+                "all": 749,
+                "hem": 227
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "model_name": "convnext-base",
+    "model_id": "facebook/convnext-base-224",
+    "test_metrics": {
+        "accuracy": 0.8862704918032787,
+        "precision": 0.8838274627361539,
+        "recall": 0.8862704918032787,
+        "f1_score": 0.8846964481307642,
+        "roc_auc": 0.9252748157602206
+    },
+    "training_time": 8961.883887529373,
+    "epochs_trained": 24,
+    "dataset_info": {
+        "train_size": 16384,
+        "val_size": 2326,
+        "test_size": 976,
+        "class_names": [
+            "all",
+            "hem"
+        ],
+        "class_distribution": {
+            "train": {
+                "all": 8292,
+                "hem": 8092
+            },
+            "val": {
+                "all": 1744,
+                "hem": 582
+            },
+            "test": {
+                "all": 749,
+                "hem": 227
+            }
+        }
+    }
+}
